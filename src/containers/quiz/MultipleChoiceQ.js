@@ -8,7 +8,7 @@ const MultipleChoiceQ = ({ onAnswer,data }) => {
     const handleSelectAnswer = (selection) => {
         setSelectedAnswer(selection.character);
         setTimeout(() => {
-            onAnswer(selection.character === data.rightAnswer);
+            onAnswer(selection.character, selection.character === data.rightAnswer);
         }, 500);
     };
 
@@ -25,6 +25,7 @@ const MultipleChoiceQ = ({ onAnswer,data }) => {
     return (
         <div className="multiple-choice question">
             <div>
+                <h3>Select the corresponding character(s)</h3>
                 <IonGrid>
                     <IonRow>
                         <IonCol size="12">

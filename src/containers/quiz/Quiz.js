@@ -8,21 +8,22 @@ const Quiz = ({ type, data, onClose }) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [userResponses, setUserResponses] = useState([]);
     const [quizOver, setQuizOver] = useState(false);
-    const totalQuestions = 10;
+    const totalQuestions = 5;
 
-    const handleAnswer = (answer) => {
-        setUserResponses([...userResponses, answer]);
+    const handleAnswer = (answer, isRight) => {
+        setUserResponses([...userResponses, [answer, isRight]]);
         if (currentQuestion < totalQuestions - 1) {
             setCurrentQuestion(currentQuestion + 1);
         } else {
-            console.log(userResponses)
+
             setQuizOver(true)
         }
     };
 
     const onClosetest = () => {
+        console.log(userResponses)
         setQuizOver(false);
-        onClose();
+        onClose(userResponses);
     }
 
     const setupMultipleChoiceQ = () => {
@@ -62,8 +63,8 @@ const Quiz = ({ type, data, onClose }) => {
         const randomEntry2 = data[randomIndex2];
         const correctPronunciation2 = randomEntry2.pronunciation;
         const uniquePronunciations = data.map(entry => entry.pronunciation);
-        let rest = QuizHelpers.shuffleArray(uniquePronunciations).slice(0, 6);
-        rest = [rest[0] + rest[1], rest[2] + rest[3], rest[4] + rest[5]]
+        let rest = QuizHelpers.shuffleArray(uniquePronunciations).slice(0, 5);
+        rest = [rest[0] + rest[1], rest[2] + rest[3], rest[4] + rest[2]]
 
         return {
             character: randomEntry.character + randomEntry2.character,
@@ -74,7 +75,10 @@ const Quiz = ({ type, data, onClose }) => {
 
     const setupLinkingQ = () => {
         const clonedArray = data.slice();
-        return QuizHelpers.shuffleArray(clonedArray).slice(0, 5);
+        const selected = QuizHelpers.shuffleArray(clonedArray).slice(0, 4);
+        const shuffledOptions = QuizHelpers.shuffleArray(selected.slice())
+        const a = selected.map(({ character, pronunciation }, idx) => ({ character: character, pronunciation: pronunciation, wrongCharacter: shuffledOptions[idx].character, wrongPronunciation: shuffledOptions[idx].pronunciation }))
+        return a
     }
 
     const renderQuestion = () => {
@@ -144,11 +148,14 @@ const Quiz = ({ type, data, onClose }) => {
                         <h2>Quiz Over!</h2>
                         <p>
                             {`You got ${userResponses.reduce((counter, value) => {
-                                if (value) counter++;
+                                if (value[1]) counter++;
                                 return counter; 
                             }, 0)} out of ${totalQuestions} correct!`}
                         </p>
-                        <IonProgressBar> </IonProgressBar>
+                        <IonProgressBar color="success" value={userResponses.reduce((counter, value) => {
+                            if (value[1]) counter++;
+                            return counter;
+                        }, 0) / totalQuestions}> </IonProgressBar>
                         <IonButton color='primary' onClick={() => onClosetest()}>Exit</IonButton>
                     </div>
                 </div>}
