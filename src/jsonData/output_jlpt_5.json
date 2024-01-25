@@ -1,0 +1,1336 @@
+{
+  "一": {
+    "freq": 2,
+    "jlpt_new": 5,
+    "meanings": [
+      "One",
+      "One Radical (no.1)"
+    ],
+    "readings_on": [
+      "いち",
+      "いつ"
+    ],
+    "readings_kun": [
+      "ひと-",
+      "ひと.つ"
+    ]
+  },
+  "二": {
+    "freq": 9,
+    "jlpt_new": 5,
+    "meanings": [
+      "Two",
+      "Two Radical (no. 7)"
+    ],
+    "readings_on": [
+      "に",
+      "じ"
+    ],
+    "readings_kun": [
+      "ふた",
+      "ふた.つ",
+      "ふたたび"
+    ]
+  },
+  "九": {
+    "freq": 55,
+    "jlpt_new": 5,
+    "meanings": [
+      "Nine"
+    ],
+    "readings_on": [
+      "きゅう",
+      "く"
+    ],
+    "readings_kun": [
+      "ここの",
+      "ここの.つ"
+    ]
+  },
+  "七": {
+    "freq": 115,
+    "jlpt_new": 5,
+    "meanings": [
+      "Seven"
+    ],
+    "readings_on": [
+      "しち"
+    ],
+    "readings_kun": [
+      "なな",
+      "なな.つ",
+      "なの"
+    ]
+  },
+  "人": {
+    "freq": 5,
+    "jlpt_new": 5,
+    "meanings": [
+      "Person"
+    ],
+    "readings_on": [
+      "じん",
+      "にん"
+    ],
+    "readings_kun": [
+      "ひと",
+      "-り",
+      "-と"
+    ]
+  },
+  "入": {
+    "freq": 56,
+    "jlpt_new": 5,
+    "meanings": [
+      "Enter",
+      "Insert"
+    ],
+    "readings_on": [
+      "にゅう",
+      "じゅ"
+    ],
+    "readings_kun": [
+      "い.る",
+      "-い.る",
+      "-い.り",
+      "い.れる",
+      "-い.れ",
+      "はい.る"
+    ]
+  },
+  "八": {
+    "freq": 92,
+    "jlpt_new": 5,
+    "meanings": [
+      "Eight",
+      "Eight Radical (no. 12)"
+    ],
+    "readings_on": [
+      "はち"
+    ],
+    "readings_kun": [
+      "や",
+      "や.つ",
+      "やっ.つ",
+      "よう"
+    ]
+  },
+  "十": {
+    "freq": 8,
+    "jlpt_new": 5,
+    "meanings": [
+      "Ten"
+    ],
+    "readings_on": [
+      "じゅう",
+      "じっ",
+      "じゅっ"
+    ],
+    "readings_kun": [
+      "とお",
+      "と"
+    ]
+  },
+  "三": {
+    "freq": 14,
+    "jlpt_new": 5,
+    "meanings": [
+      "Three"
+    ],
+    "readings_on": [
+      "さん",
+      "ぞう"
+    ],
+    "readings_kun": [
+      "み",
+      "み.つ",
+      "みっ.つ"
+    ]
+  },
+  "上": {
+    "freq": 35,
+    "jlpt_new": 5,
+    "meanings": [
+      "Above",
+      "Up"
+    ],
+    "readings_on": [
+      "じょう",
+      "しょう",
+      "しゃん"
+    ],
+    "readings_kun": [
+      "うえ",
+      "-うえ",
+      "うわ-",
+      "かみ",
+      "あ.げる",
+      "-あ.げる",
+      "あ.がる",
+      "-あ.がる",
+      "あ.がり",
+      "-あ.がり",
+      "のぼ.る",
+      "のぼ.り",
+      "のぼ.せる",
+      "のぼ.す",
+      "たてまつ.る"
+    ]
+  },
+  "下": {
+    "freq": 97,
+    "jlpt_new": 5,
+    "meanings": [
+      "Below",
+      "Down",
+      "Descend",
+      "Give",
+      "Low",
+      "Inferior"
+    ],
+    "readings_on": [
+      "か",
+      "げ"
+    ],
+    "readings_kun": [
+      "した",
+      "しも",
+      "もと",
+      "さ.げる",
+      "さ.がる",
+      "くだ.る",
+      "くだ.り",
+      "くだ.す",
+      "-くだ.す",
+      "くだ.さる",
+      "お.ろす",
+      "お.りる"
+    ]
+  },
+  "大": {
+    "freq": 7,
+    "jlpt_new": 5,
+    "meanings": [
+      "Large",
+      "Big"
+    ],
+    "readings_on": [
+      "だい",
+      "たい"
+    ],
+    "readings_kun": [
+      "おお-",
+      "おお.きい",
+      "-おお.いに"
+    ]
+  },
+  "女": {
+    "freq": 151,
+    "jlpt_new": 5,
+    "meanings": [
+      "Woman",
+      "Female"
+    ],
+    "readings_on": [
+      "じょ",
+      "にょ",
+      "にょう"
+    ],
+    "readings_kun": [
+      "おんな",
+      "め"
+    ]
+  },
+  "山": {
+    "freq": 131,
+    "jlpt_new": 5,
+    "meanings": [
+      "Mountain"
+    ],
+    "readings_on": [
+      "さん",
+      "せん"
+    ],
+    "readings_kun": [
+      "やま"
+    ]
+  },
+  "川": {
+    "freq": 181,
+    "jlpt_new": 5,
+    "meanings": [
+      "Stream",
+      "River",
+      "River Or Three-stroke River Radical (no. 47)"
+    ],
+    "readings_on": [
+      "せん"
+    ],
+    "readings_kun": [
+      "かわ"
+    ]
+  },
+  "土": {
+    "freq": 307,
+    "jlpt_new": 5,
+    "meanings": [
+      "Soil",
+      "Earth",
+      "Ground",
+      "Turkey"
+    ],
+    "readings_on": [
+      "ど",
+      "と"
+    ],
+    "readings_kun": [
+      "つち"
+    ]
+  },
+  "千": {
+    "freq": 195,
+    "jlpt_new": 5,
+    "meanings": [
+      "Thousand"
+    ],
+    "readings_on": [
+      "せん"
+    ],
+    "readings_kun": [
+      "ち"
+    ]
+  },
+  "子": {
+    "freq": 72,
+    "jlpt_new": 5,
+    "meanings": [
+      "Child",
+      "Sign Of The Rat",
+      "11pm-1am",
+      "First Sign Of Chinese Zodiac"
+    ],
+    "readings_on": [
+      "し",
+      "す",
+      "つ"
+    ],
+    "readings_kun": [
+      "こ",
+      "-こ",
+      "ね"
+    ]
+  },
+  "小": {
+    "freq": 114,
+    "jlpt_new": 5,
+    "meanings": [
+      "Little",
+      "Small"
+    ],
+    "readings_on": [
+      "しょう"
+    ],
+    "readings_kun": [
+      "ちい.さい",
+      "こ-",
+      "お-",
+      "さ-"
+    ]
+  },
+  "中": {
+    "freq": 11,
+    "jlpt_new": 5,
+    "meanings": [
+      "In",
+      "Inside",
+      "Middle",
+      "Mean",
+      "Center"
+    ],
+    "readings_on": [
+      "ちゅう"
+    ],
+    "readings_kun": [
+      "なか",
+      "うち",
+      "あた.る"
+    ]
+  },
+  "五": {
+    "freq": 31,
+    "jlpt_new": 5,
+    "meanings": [
+      "Five"
+    ],
+    "readings_on": [
+      "ご"
+    ],
+    "readings_kun": [
+      "いつ",
+      "いつ.つ"
+    ]
+  },
+  "六": {
+    "freq": 93,
+    "jlpt_new": 5,
+    "meanings": [
+      "Six"
+    ],
+    "readings_on": [
+      "ろく",
+      "りく"
+    ],
+    "readings_kun": [
+      "む",
+      "む.つ",
+      "むっ.つ",
+      "むい"
+    ]
+  },
+  "円": {
+    "freq": 69,
+    "jlpt_new": 5,
+    "meanings": [
+      "Circle",
+      "Yen",
+      "Round"
+    ],
+    "readings_on": [
+      "えん"
+    ],
+    "readings_kun": [
+      "まる.い",
+      "まる",
+      "まど",
+      "まど.か",
+      "まろ.やか"
+    ]
+  },
+  "天": {
+    "freq": 512,
+    "jlpt_new": 5,
+    "meanings": [
+      "Heavens",
+      "Sky",
+      "Imperial"
+    ],
+    "readings_on": [
+      "てん"
+    ],
+    "readings_kun": [
+      "あまつ",
+      "あめ",
+      "あま-"
+    ]
+  },
+  "日": {
+    "freq": 1,
+    "jlpt_new": 5,
+    "meanings": [
+      "Day",
+      "Sun",
+      "Japan",
+      "Counter For Days"
+    ],
+    "readings_on": [
+      "にち",
+      "じつ"
+    ],
+    "readings_kun": [
+      "ひ",
+      "-び",
+      "-か"
+    ]
+  },
+  "月": {
+    "freq": 23,
+    "jlpt_new": 5,
+    "meanings": [
+      "Month",
+      "Moon"
+    ],
+    "readings_on": [
+      "げつ",
+      "がつ"
+    ],
+    "readings_kun": [
+      "つき"
+    ]
+  },
+  "木": {
+    "freq": 317,
+    "jlpt_new": 5,
+    "meanings": [
+      "Tree",
+      "Wood"
+    ],
+    "readings_on": [
+      "ぼく",
+      "もく"
+    ],
+    "readings_kun": [
+      "き",
+      "こ-"
+    ]
+  },
+  "水": {
+    "freq": 223,
+    "jlpt_new": 5,
+    "meanings": [
+      "Water"
+    ],
+    "readings_on": [
+      "すい"
+    ],
+    "readings_kun": [
+      "みず",
+      "みず-"
+    ]
+  },
+  "火": {
+    "freq": 574,
+    "jlpt_new": 5,
+    "meanings": [
+      "Fire"
+    ],
+    "readings_on": [
+      "か"
+    ],
+    "readings_kun": [
+      "ひ",
+      "-び",
+      "ほ-"
+    ]
+  },
+  "出": {
+    "freq": 13,
+    "jlpt_new": 5,
+    "meanings": [
+      "Exit",
+      "Leave",
+      "Go Out",
+      "Come Out",
+      "Put Out",
+      "Protrude"
+    ],
+    "readings_on": [
+      "しゅつ",
+      "すい"
+    ],
+    "readings_kun": [
+      "で.る",
+      "-で",
+      "だ.す",
+      "-だ.す",
+      "い.でる",
+      "い.だす"
+    ]
+  },
+  "右": {
+    "freq": 602,
+    "jlpt_new": 5,
+    "meanings": [
+      "Right"
+    ],
+    "readings_on": [
+      "う",
+      "ゆう"
+    ],
+    "readings_kun": [
+      "みぎ"
+    ]
+  },
+  "四": {
+    "freq": 47,
+    "jlpt_new": 5,
+    "meanings": [
+      "Four"
+    ],
+    "readings_on": [
+      "し"
+    ],
+    "readings_kun": [
+      "よ",
+      "よ.つ",
+      "よっ.つ",
+      "よん"
+    ]
+  },
+  "左": {
+    "freq": 630,
+    "jlpt_new": 5,
+    "meanings": [
+      "Left"
+    ],
+    "readings_on": [
+      "さ",
+      "しゃ"
+    ],
+    "readings_kun": [
+      "ひだり"
+    ]
+  },
+  "本": {
+    "freq": 10,
+    "jlpt_new": 5,
+    "meanings": [
+      "Book",
+      "Present",
+      "Main",
+      "Origin",
+      "True",
+      "Real",
+      "Counter For Long Cylindrical Things"
+    ],
+    "readings_on": [
+      "ほん"
+    ],
+    "readings_kun": [
+      "もと"
+    ]
+  },
+  "白": {
+    "freq": 483,
+    "jlpt_new": 5,
+    "meanings": [
+      "White"
+    ],
+    "readings_on": [
+      "はく",
+      "びゃく"
+    ],
+    "readings_kun": [
+      "しろ",
+      "しら-",
+      "しろ.い"
+    ]
+  },
+  "万": {
+    "freq": 375,
+    "jlpt_new": 5,
+    "meanings": [
+      "Ten Thousand",
+      "10,000"
+    ],
+    "readings_on": [
+      "まん",
+      "ばん"
+    ],
+    "readings_kun": [
+      "よろず"
+    ]
+  },
+  "今": {
+    "freq": 49,
+    "jlpt_new": 5,
+    "meanings": [
+      "Now"
+    ],
+    "readings_on": [
+      "こん",
+      "きん"
+    ],
+    "readings_kun": [
+      "いま"
+    ]
+  },
+  "午": {
+    "freq": 154,
+    "jlpt_new": 5,
+    "meanings": [
+      "Noon",
+      "Sign Of The Horse",
+      "11am-1pm",
+      "Seventh Sign Of Chinese Zodiac"
+    ],
+    "readings_on": [
+      "ご"
+    ],
+    "readings_kun": [
+      "うま"
+    ]
+  },
+  "友": {
+    "freq": 622,
+    "jlpt_new": 5,
+    "meanings": [
+      "Friend"
+    ],
+    "readings_on": [
+      "ゆう"
+    ],
+    "readings_kun": [
+      "とも"
+    ]
+  },
+  "父": {
+    "freq": 646,
+    "jlpt_new": 5,
+    "meanings": [
+      "Father"
+    ],
+    "readings_on": [
+      "ふ"
+    ],
+    "readings_kun": [
+      "ちち"
+    ]
+  },
+  "北": {
+    "freq": 153,
+    "jlpt_new": 5,
+    "meanings": [
+      "North"
+    ],
+    "readings_on": [
+      "ほく"
+    ],
+    "readings_kun": [
+      "きた"
+    ]
+  },
+  "半": {
+    "freq": 224,
+    "jlpt_new": 5,
+    "meanings": [
+      "Half",
+      "Middle",
+      "Odd Number",
+      "Semi-",
+      "Part-"
+    ],
+    "readings_on": [
+      "はん"
+    ],
+    "readings_kun": [
+      "なか.ば"
+    ]
+  },
+  "外": {
+    "freq": 81,
+    "jlpt_new": 5,
+    "meanings": [
+      "Outside"
+    ],
+    "readings_on": [
+      "がい",
+      "げ"
+    ],
+    "readings_kun": [
+      "そと",
+      "ほか",
+      "はず.す",
+      "はず.れる",
+      "と-"
+    ]
+  },
+  "母": {
+    "freq": 570,
+    "jlpt_new": 5,
+    "meanings": [
+      "Mother"
+    ],
+    "readings_on": [
+      "ぼ"
+    ],
+    "readings_kun": [
+      "はは",
+      "も"
+    ]
+  },
+  "休": {
+    "freq": 642,
+    "jlpt_new": 5,
+    "meanings": [
+      "Rest",
+      "Day Off",
+      "Retire",
+      "Sleep"
+    ],
+    "readings_on": [
+      "きゅう"
+    ],
+    "readings_kun": [
+      "やす.む",
+      "やす.まる",
+      "やす.める"
+    ]
+  },
+  "先": {
+    "freq": 173,
+    "jlpt_new": 5,
+    "meanings": [
+      "Before",
+      "Ahead",
+      "Previous",
+      "Future",
+      "Precedence"
+    ],
+    "readings_on": [
+      "せん"
+    ],
+    "readings_kun": [
+      "さき",
+      "ま.ず"
+    ]
+  },
+  "名": {
+    "freq": 177,
+    "jlpt_new": 5,
+    "meanings": [
+      "Name",
+      "Noted",
+      "Distinguished",
+      "Reputation"
+    ],
+    "readings_on": [
+      "めい",
+      "みょう"
+    ],
+    "readings_kun": [
+      "な",
+      "-な"
+    ]
+  },
+  "年": {
+    "freq": 6,
+    "jlpt_new": 5,
+    "meanings": [
+      "Year",
+      "Counter For Years"
+    ],
+    "readings_on": [
+      "ねん"
+    ],
+    "readings_kun": [
+      "とし"
+    ]
+  },
+  "気": {
+    "freq": 113,
+    "jlpt_new": 5,
+    "meanings": [
+      "Spirit",
+      "Mind",
+      "Air",
+      "Atmosphere",
+      "Mood"
+    ],
+    "readings_on": [
+      "き",
+      "け"
+    ],
+    "readings_kun": [
+      "いき"
+    ]
+  },
+  "百": {
+    "freq": 163,
+    "jlpt_new": 5,
+    "meanings": [
+      "Hundred"
+    ],
+    "readings_on": [
+      "ひゃく",
+      "びゃく"
+    ],
+    "readings_kun": [
+      "もも"
+    ]
+  },
+  "男": {
+    "freq": 240,
+    "jlpt_new": 5,
+    "meanings": [
+      "Male"
+    ],
+    "readings_on": [
+      "だん",
+      "なん"
+    ],
+    "readings_kun": [
+      "おとこ",
+      "お"
+    ]
+  },
+  "見": {
+    "freq": 22,
+    "jlpt_new": 5,
+    "meanings": [
+      "See",
+      "Hopes",
+      "Chances",
+      "Idea",
+      "Opinion",
+      "Look At",
+      "Visible"
+    ],
+    "readings_on": [
+      "けん"
+    ],
+    "readings_kun": [
+      "み.る",
+      "み.える",
+      "み.せる"
+    ]
+  },
+  "車": {
+    "freq": 333,
+    "jlpt_new": 5,
+    "meanings": [
+      "Car"
+    ],
+    "readings_on": [
+      "しゃ"
+    ],
+    "readings_kun": [
+      "くるま"
+    ]
+  },
+  "毎": {
+    "freq": 436,
+    "jlpt_new": 5,
+    "meanings": [
+      "Every"
+    ],
+    "readings_on": [
+      "まい"
+    ],
+    "readings_kun": [
+      "ごと",
+      "-ごと.に"
+    ]
+  },
+  "行": {
+    "freq": 20,
+    "jlpt_new": 5,
+    "meanings": [
+      "Going",
+      "Journey",
+      "Carry Out",
+      "Conduct",
+      "Act",
+      "Line",
+      "Row",
+      "Bank"
+    ],
+    "readings_on": [
+      "こう",
+      "ぎょう",
+      "あん"
+    ],
+    "readings_kun": [
+      "い.く",
+      "ゆ.く",
+      "-ゆ.き",
+      "-ゆき",
+      "-い.き",
+      "-いき",
+      "おこな.う",
+      "おこ.なう"
+    ]
+  },
+  "西": {
+    "freq": 259,
+    "jlpt_new": 5,
+    "meanings": [
+      "West",
+      "Spain"
+    ],
+    "readings_on": [
+      "せい",
+      "さい",
+      "す"
+    ],
+    "readings_kun": [
+      "にし"
+    ]
+  },
+  "何": {
+    "freq": 340,
+    "jlpt_new": 5,
+    "meanings": [
+      "What"
+    ],
+    "readings_on": [
+      "か"
+    ],
+    "readings_kun": [
+      "なに",
+      "なん",
+      "なに-",
+      "なん-"
+    ]
+  },
+  "来": {
+    "freq": 102,
+    "jlpt_new": 5,
+    "meanings": [
+      "Come",
+      "Due",
+      "Next",
+      "Cause",
+      "Become"
+    ],
+    "readings_on": [
+      "らい",
+      "たい"
+    ],
+    "readings_kun": [
+      "く.る",
+      "きた.る",
+      "きた.す",
+      "き.たす",
+      "き.たる",
+      "き",
+      "こ"
+    ]
+  },
+  "学": {
+    "freq": 63,
+    "jlpt_new": 5,
+    "meanings": [
+      "Study",
+      "Learning",
+      "Science"
+    ],
+    "readings_on": [
+      "がく"
+    ],
+    "readings_kun": [
+      "まな.ぶ"
+    ]
+  },
+  "金": {
+    "freq": 53,
+    "jlpt_new": 5,
+    "meanings": [
+      "Gold"
+    ],
+    "readings_on": [
+      "きん",
+      "こん",
+      "ごん"
+    ],
+    "readings_kun": [
+      "かね",
+      "かな-",
+      "-がね"
+    ]
+  },
+  "雨": {
+    "freq": 950,
+    "jlpt_new": 5,
+    "meanings": [
+      "Rain"
+    ],
+    "readings_on": [
+      "う"
+    ],
+    "readings_kun": [
+      "あめ",
+      "あま-",
+      "-さめ"
+    ]
+  },
+  "国": {
+    "freq": 3,
+    "jlpt_new": 5,
+    "meanings": [
+      "Country"
+    ],
+    "readings_on": [
+      "こく"
+    ],
+    "readings_kun": [
+      "くに"
+    ]
+  },
+  "東": {
+    "freq": 37,
+    "jlpt_new": 5,
+    "meanings": [
+      "East"
+    ],
+    "readings_on": [
+      "とう"
+    ],
+    "readings_kun": [
+      "ひがし"
+    ]
+  },
+  "長": {
+    "freq": 12,
+    "jlpt_new": 5,
+    "meanings": [
+      "Long",
+      "Leader",
+      "Superior",
+      "Senior"
+    ],
+    "readings_on": [
+      "ちょう"
+    ],
+    "readings_kun": [
+      "なが.い",
+      "おさ"
+    ]
+  },
+  "前": {
+    "freq": 27,
+    "jlpt_new": 5,
+    "meanings": [
+      "In Front",
+      "Before"
+    ],
+    "readings_on": [
+      "ぜん"
+    ],
+    "readings_kun": [
+      "まえ",
+      "-まえ"
+    ]
+  },
+  "南": {
+    "freq": 341,
+    "jlpt_new": 5,
+    "meanings": [
+      "South"
+    ],
+    "readings_on": [
+      "なん",
+      "な"
+    ],
+    "readings_kun": [
+      "みなみ"
+    ]
+  },
+  "後": {
+    "freq": 26,
+    "jlpt_new": 5,
+    "meanings": [
+      "Behind",
+      "Back",
+      "Later"
+    ],
+    "readings_on": [
+      "ご",
+      "こう"
+    ],
+    "readings_kun": [
+      "のち",
+      "うし.ろ",
+      "うしろ",
+      "あと",
+      "おく.れる"
+    ]
+  },
+  "食": {
+    "freq": 328,
+    "jlpt_new": 5,
+    "meanings": [
+      "Eat",
+      "Food"
+    ],
+    "readings_on": [
+      "しょく",
+      "じき"
+    ],
+    "readings_kun": [
+      "く.う",
+      "く.らう",
+      "た.べる",
+      "は.む"
+    ]
+  },
+  "校": {
+    "freq": 294,
+    "jlpt_new": 5,
+    "meanings": [
+      "Exam",
+      "School",
+      "Printing",
+      "Proof",
+      "Correction"
+    ],
+    "readings_on": [
+      "こう",
+      "きょう"
+    ],
+    "readings_kun": []
+  },
+  "時": {
+    "freq": 16,
+    "jlpt_new": 5,
+    "meanings": [
+      "Time",
+      "Hour"
+    ],
+    "readings_on": [
+      "じ"
+    ],
+    "readings_kun": [
+      "とき",
+      "-どき"
+    ]
+  },
+  "高": {
+    "freq": 65,
+    "jlpt_new": 5,
+    "meanings": [
+      "Tall",
+      "High",
+      "Expensive"
+    ],
+    "readings_on": [
+      "こう"
+    ],
+    "readings_kun": [
+      "たか.い",
+      "たか",
+      "-だか",
+      "たか.まる",
+      "たか.める"
+    ]
+  },
+  "間": {
+    "freq": 33,
+    "jlpt_new": 5,
+    "meanings": [
+      "Interval",
+      "Space"
+    ],
+    "readings_on": [
+      "かん",
+      "けん"
+    ],
+    "readings_kun": [
+      "あいだ",
+      "ま",
+      "あい"
+    ]
+  },
+  "話": {
+    "freq": 134,
+    "jlpt_new": 5,
+    "meanings": [
+      "Tale",
+      "Talk"
+    ],
+    "readings_on": [
+      "わ"
+    ],
+    "readings_kun": [
+      "はな.す",
+      "はなし"
+    ]
+  },
+  "電": {
+    "freq": 268,
+    "jlpt_new": 5,
+    "meanings": [
+      "Electricity"
+    ],
+    "readings_on": [
+      "でん"
+    ],
+    "readings_kun": []
+  },
+  "聞": {
+    "freq": 319,
+    "jlpt_new": 5,
+    "meanings": [
+      "Hear",
+      "Ask",
+      "Listen"
+    ],
+    "readings_on": [
+      "ぶん",
+      "もん"
+    ],
+    "readings_kun": [
+      "き.く",
+      "き.こえる"
+    ]
+  },
+  "語": {
+    "freq": 301,
+    "jlpt_new": 5,
+    "meanings": [
+      "Word",
+      "Speech",
+      "Language"
+    ],
+    "readings_on": [
+      "ご"
+    ],
+    "readings_kun": [
+      "かた.る",
+      "かた.らう"
+    ]
+  },
+  "読": {
+    "freq": 618,
+    "jlpt_new": 5,
+    "meanings": [
+      "Read"
+    ],
+    "readings_on": [
+      "どく",
+      "とく",
+      "とう"
+    ],
+    "readings_kun": [
+      "よ.む",
+      "-よ.み"
+    ]
+  },
+  "生": {
+    "freq": 29,
+    "jlpt_new": 5,
+    "meanings": [
+      "Life",
+      "Genuine",
+      "Birth"
+    ],
+    "readings_on": [
+      "せい",
+      "しょう"
+    ],
+    "readings_kun": [
+      "い.きる",
+      "い.かす",
+      "い.ける",
+      "う.まれる",
+      "うま.れる",
+      "う.まれ",
+      "うまれ",
+      "う.む",
+      "お.う",
+      "は.える",
+      "は.やす",
+      "き",
+      "なま",
+      "なま-",
+      "な.る",
+      "な.す",
+      "む.す",
+      "-う"
+    ]
+  },
+  "書": {
+    "freq": 169,
+    "jlpt_new": 5,
+    "meanings": [
+      "Write"
+    ],
+    "readings_on": [
+      "しょ"
+    ],
+    "readings_kun": [
+      "か.く",
+      "-が.き",
+      "-がき"
+    ]
+  }
+}
