@@ -1,15 +1,15 @@
 import React, { useState} from 'react';
 import SectionDivider from './../components/SectionDivider'
-import { IonCol, IonGrid, IonRow, IonHeader, IonToolbar, IonSearchbar, IonIcon, IonButton, IonTitle, IonButtons } from '@ionic/react';
+import { IonCol, IonGrid, IonRow, IonHeader, IonToolbar, IonIcon, IonButton, IonButtons, IonContent } from '@ionic/react';
 import { search } from 'ionicons/icons';
 import { n4Kanji, n5Kanji } from '../jsonData/kanjiData';
 import GridItem from '../containers/GridItem';
 import KanjiItemScreen from '../components/KanjiItemScreen';
+import LookupKanji from './LookupKanji';
 
 const itemsPerRow = 4;
 
 const Kanji = (data) => {
- 
     const [selectedCharacter, setSelectedCharacter] = useState(null);
     const [isSearchVisible, setIsSearchVisible] = useState(false);
 
@@ -34,25 +34,26 @@ const Kanji = (data) => {
         setSelectedCharacter(null);
     };
 
+    const objectToKeyValuePairs = (obj) => {
+        return Object.entries(obj).map(([key, value]) => ([
+            key, value.meanings
+        ]));
+    };
+
     return (
         <div className="kanji mainSection">
             <IonHeader>
                 <IonToolbar color="translucent">
                      <IonButtons slot="start">
-                        {!isSearchVisible && <IonButton color="translucent" onClick={toggleSearch}>
+                        <IonButton color="translucent" onClick={toggleSearch}>
                             <IonIcon color="primary" slot="start" icon={search}></IonIcon>
-                        </IonButton>}
-                        {!isSearchVisible && <h1>Kanji</h1>}
-                        {isSearchVisible && (
-                            <IonToolbar class="custom" color="translucent">
-                                <IonSearchbar showClearButton="always"></IonSearchbar>
-                            </IonToolbar>
-                        )}
-
+                        </IonButton>
+                        <h1>Kanji</h1>
                     </IonButtons>
                 </IonToolbar>
             </IonHeader>
             <SectionDivider />
+            <IonContent>
             <h2 style={{color:'white'}}>N5</h2>
             <SectionDivider />
             <IonGrid>
@@ -80,7 +81,8 @@ const Kanji = (data) => {
                         </IonRow>
                     ))
                 }
-            </IonGrid>
+                </IonGrid>
+
             <h2 style={{ marginTop:'20px' ,color: 'white' }}>N4</h2>
             <SectionDivider />
             <IonGrid style={{ marginBottom: '80px' }} >
@@ -106,7 +108,8 @@ const Kanji = (data) => {
                         </IonRow>
                     ))
                 }
-            </IonGrid>
+                </IonGrid>
+            </IonContent>
             {selectedCharacter !== null && < KanjiItemScreen
                 isOpen={selectedCharacter !== null}
                 onClose={handleCloseItem}
@@ -118,6 +121,11 @@ const Kanji = (data) => {
                 on={selectedCharacter?.readings_on}
                 kun={selectedCharacter?.readings_kun}
             />}
+            {isSearchVisible && <LookupKanji isOpen={isSearchVisible} data={[
+                ...objectToKeyValuePairs(n5Kanji),
+                ...objectToKeyValuePairs(n4Kanji)
+            ]
+            } onClose={toggleSearch} info={Object.assign({}, n4Kanji, n5Kanji)} />}
         </div>
     );
 };

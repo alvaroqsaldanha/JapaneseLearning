@@ -5,14 +5,15 @@ import './App.css';
 import { useSwipeable } from 'react-swipeable';
 import React, { useState, useEffect} from 'react';
 import '@ionic/react/css/core.css';
-import { IonFooter, IonToolbar, IonButton, IonLabel, IonAlert } from '@ionic/react';
+import { IonFooter, IonToolbar, IonButton, IonLabel, IonAlert, IonApp, IonSegment, IonSegmentButton } from '@ionic/react';
 import Quiz from './containers/quiz/Quiz';
 
-function App({ katakanaData, hiraganaData, kanjiData, reload, currentPage, setCurrentPage }) {
+function App({ katakanaData, hiraganaData, kanjiData, reload, currentPageInherited }) {
 
     const [activeQuiz, setActiveQuiz] = useState(false);
     const [quizLoading, setQuizLoading] = useState([false, 5]);
     const pages = ['hiragana', 'katakana', 'kanji'];
+    const [currentPage, setCurrentPage] = useState(currentPageInherited);
 
     const handleSwipe = useSwipeable({
         onSwipedLeft: () => {
@@ -75,8 +76,14 @@ function App({ katakanaData, hiraganaData, kanjiData, reload, currentPage, setCu
         return (< IonAlert
             isOpen={quizLoading[0]}
             header="Select quiz type"
-            trigger="test"
             buttons={[
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: () => {
+                        setQuizLoading([false, 5])
+                    },
+                },
                 {
                     text: 'OK',
                     role: 'confirm',
@@ -101,8 +108,7 @@ function App({ katakanaData, hiraganaData, kanjiData, reload, currentPage, setCu
     }
 
     return (
-
-        <div className="App" {...handleSwipe}>
+        <IonApp>        <div className="App" {...handleSwipe}>
             {!activeQuiz && currentPage === 'hiragana' && <Hiragana data={hiraganaData.values} />}
             {!activeQuiz && currentPage === 'katakana' && <Katakana data={katakanaData.values} />}
             {!activeQuiz && currentPage === 'kanji' && <Kanji data={kanjiData.values} />}
@@ -113,7 +119,22 @@ function App({ katakanaData, hiraganaData, kanjiData, reload, currentPage, setCu
                             <IonLabel style={{ color: 'black' }}><b>Quiz {currentPage}</b></IonLabel>
                         </IonButton>
                     </IonToolbar>
+                    <IonSegment value="hiragana" color="light" fill="clear" style={{ backgroundColor: "white",height:'70px' }}>
+                        <IonSegmentButton value="hiragana" onClick={() => setCurrentPage("hiragana")} >
+                            A
+                        </IonSegmentButton>
+                        <IonSegmentButton value="katakana" onClick={() =>  setCurrentPage("katakana")}>
+                            B
+                        </IonSegmentButton>
+                        <IonSegmentButton value="kanji" onClick={() =>  setCurrentPage("kanji")}>
+                            C
+                        </IonSegmentButton>
+                        <IonSegmentButton value="settings" onClick={() => setCurrentPage("settings")}>
+                            D
+                        </IonSegmentButton>
+                    </IonSegment>
                 </IonFooter>
+
             )}
             {activeQuiz && (
                 <Quiz
@@ -123,7 +144,8 @@ function App({ katakanaData, hiraganaData, kanjiData, reload, currentPage, setCu
                 />
             )}
             {quizLoading[0] && renderKanji()}
-        </div>
+        </div></IonApp>
+
     );
 }
 
