@@ -1,5 +1,4 @@
 ## Japansese Learning App
-Alvaro Saldanha
 
 ReactJS w/ Capacitor, Ionic Framework, TensorflowJS (if possible)
 
