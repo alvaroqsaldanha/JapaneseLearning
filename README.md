@@ -15,8 +15,6 @@ Each section allows the user to freely study Japanese characters (through a grid
 For Hiragana/Katakana, the grid/quizzes would match the characters to their english corresponding “sound” translation (i.e.、 こ -> ko). If available, play audio of correct pronunciation.
 For the kanji section, clicking on a specific kanji will open a new screen, with info on the kanji and common words that use it. The kanji data will be stored either offline in the app itself (json) or obtained through an API (jisho public API for example). Also, allow users to search kanji.
 
-The app’s main 3 sections would be accessible by swiping sideways. (Very small demo I made today: [https://imgur.com/a/1aTJ6lh](https://imgur.com/a/NfjSUGk))
-
 Other possible features that need more research: 
 
 Optical Kanji Recognition (camera plugin) => Use off-the-shelf tensorflow.js model or train a lightweight one (most likely CNN). Alternatively, look for an API. Keep a list of kanji detected by the user.
