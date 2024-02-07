@@ -23,4 +23,4 @@ Drawn kanji recognition => Similar to above. Use off-the-shelf tensorflow.js mod
 
 Separate hiragana/katakana/kanji by JLPT levels => To aid in official exam studying. Users would progress in the app by unlocking new characters.
 
-Thank you for reading :)! Please leave any comments, ideas, or suggestions below.
+Thank you for reading :)!
