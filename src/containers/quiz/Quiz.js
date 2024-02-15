@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import MultipleChoiceQ from './MultipleChoiceQ';
 import { IonProgressBar, IonFooter, IonHeader, IonTitle, IonToolbar, IonButtons, IonLabel, IonButton, IonAlert } from '@ionic/react';
 import LinkingQ from './LinkingQ';
@@ -21,7 +21,6 @@ const Quiz = ({ type, data, onClose }) => {
     };
 
     const onClosetest = () => {
-        console.log(userResponses)
         setQuizOver(false);
         onClose(userResponses);
     }
