@@ -1,6 +1,6 @@
 # Japanese Learning App
 
-App that provides a clean and fast interface to learn Japanese characters, with “game-like” elements to keep users engaged. If possible, add features such as optical kanji recognition and drawn kanji recognition. Japanese learning apps tend to be complex and require subscriptions/ads. By focusing just on characters and not on grammar, this app could be a useful and easy-to-use resource for beginner Japanese learners.
+App that provides a clean and fast interface to learn Japanese characters, with “game-like” quizzes to keep users engaged. If possible, the plan is to add features such as optical kanji recognition and drawn kanji recognition. Japanese learning apps tend to be complex and require subscriptions/ads. By focusing just on characters and not on grammar, this app could be a useful and easy-to-use resource for beginner Japanese learners.
 
 ## Technologies Used:
 
