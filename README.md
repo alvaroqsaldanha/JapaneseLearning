@@ -9,7 +9,7 @@ App that provides a clean and fast interface to learn Japanese characters, with 
 - Capacitor: for building the app.
 - react-swipeable: for allowing swiping between screens on mobile platforms.
 - @capacitor-community/sqlite: for offline storage of user quiz progress and character unlocks.
-- @capacitor-community/native-audio: for playing the pronunciation files of each characters.
+- @capacitor-community/native-audio: for playing the pronunciation files of each character.
 - Monaca (optional): as an environment setup alternative.
 
 ## Running the app
